@@ -3,11 +3,12 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    float horizontalInput;
-    float moveSpeed = 5f;
-    bool isFacingRight = false;
-    float jumpPower = 7f;
-    bool isGrounded = false;
+    private float horizontalInput;
+    private bool isFacingRight = false;
+    private bool isGrounded = false;
+
+    public float moveSpeed = 5f;
+    public float jumpPower = 7f;
 
     Rigidbody2D rb;
     Animator animator;
