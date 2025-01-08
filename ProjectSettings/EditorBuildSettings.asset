@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Enemies.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Starting room.unity
+    guid: 008667aab5a29a349956ded6e580a53e
+  - enabled: 1
+    path: Assets/Scenes/RoomTwo.unity
+    guid: 8bf4a6e1f70104b438521c1403922215
   m_configObjects: {}
