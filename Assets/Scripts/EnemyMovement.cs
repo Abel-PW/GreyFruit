@@ -6,7 +6,7 @@ public class EnemyMovement : MonoBehaviour
     public float detectionDistance = 1.0f; // Distance to detect obstacles
     public LayerMask obstacleLayer; // Layer to detect obstacles
 
-    private bool movingRight = true; // Indicates the current direction of movement
+    private bool movingRight = false; // Indicates the current direction of movement
 
     void Update()
     {

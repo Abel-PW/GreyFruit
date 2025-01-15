@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Transition
   layers:
   - Default
   - TransparentFX
@@ -11,7 +12,7 @@ TagManager:
   - obstacleLayer
   - Water
   - UI
-  - 
+  - Player
   - 
   - 
   - 
@@ -40,4 +41,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3799151565
+    locked: 0
+  - name: Obstacles
+    uniqueID: 3640245191
+    locked: 0
+  - name: bgobject
+    uniqueID: 3328787199
+    locked: 0
+  - name: Enemy
+    uniqueID: 2192184825
+    locked: 0
+  - name: Player
+    uniqueID: 4293480859
     locked: 0
