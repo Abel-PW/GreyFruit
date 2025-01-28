@@ -12,11 +12,11 @@
 ---
 
 ## How the Game is Built
-GreyFruit is crafted with passion and precision using **Unity** and the **Universal 2D Template**. The game features:
+GreyFruit is crafted using **Unity** and the **Universal 2D Template**. The game features:
 
 - **Dynamic Mechanics**: Smooth and responsive gameplay built with C#.
 - **Stunning Visuals**: Detailed pixel art that brings the world of GreyFruit to life.
-- **Polished Animations**: Seamless character and environmental animations for an immersive experience.
+- **Polished Animations**: Seamless character animations for an immersive experience.
 
 ---
 
@@ -33,6 +33,7 @@ GreyFruit is crafted with passion and precision using **Unity** and the **Univer
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/d0e2e1a1-767b-4808-ae9d-43873c3f2225)
 ![image](https://github.com/user-attachments/assets/66ebc77b-b555-4ffd-bb86-300c0269dfc0)
+![image](https://github.com/user-attachments/assets/9cce5cab-c866-4e2b-8549-5fe46f9351ee)
 
 
 
