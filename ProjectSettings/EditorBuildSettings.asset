@@ -5,13 +5,16 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Enemies.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 5a5369d7dbc173e43b90ef9d3903ff31
   - enabled: 1
-    path: Assets/Scenes 1/MainMenu.unity
-    guid: 7d381d75a79ee4d428e989644f538eac
+    path: Assets/Scenes/MainMenu.unity
+    guid: e573ae5740c8fc5419053aef75f14e40
   - enabled: 1
-    path: Assets/Scenes 1/Scene1.unity
-    guid: b386c4b15a5c409428eaa9ddf4ed23eb
+    path: Assets/Scenes/Starting room.unity
+    guid: 008667aab5a29a349956ded6e580a53e
+  - enabled: 1
+    path: Assets/Scenes/RoomTwo.unity
+    guid: 5e0eb07c5c5898c46a05f8f4f7c8742d
   m_configObjects: {}
