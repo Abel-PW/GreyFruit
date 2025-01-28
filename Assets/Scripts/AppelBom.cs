@@ -43,4 +43,24 @@ public class AppelBom : MonoBehaviour
     {
         isFacingRight = facingRight;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            EnemyDeath(collision.gameObject);
+        }
+        if (collision.gameObject.CompareTag("Terrain") && this.gameObject.CompareTag("Bom"))
+        {
+            DestroyBom(this.gameObject); // Destroy the bomb instead of the terrain
+        }
+    }
+    private void DestroyBom(GameObject Bom)
+    {
+        Destroy(Bom);
+    }
+    private void EnemyDeath(GameObject Enemy)
+    {
+        Destroy(Enemy);
+    }
 }

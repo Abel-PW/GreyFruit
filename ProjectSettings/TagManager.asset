@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Transition
+  - Enemy
+  - Terrain
+  - Bom
   layers:
   - Default
   - TransparentFX
